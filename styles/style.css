@@ -10,10 +10,8 @@ Add the Google Fonts you want, remove the ones you don't.
 
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Hepta+Slab|Staatliches&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Staatliches&display=swap');
 
 
 /*
@@ -81,8 +79,8 @@ html {
   --background-color-footer: #f5f5f5;    
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(82, 0, 255,0.6);
-  --h1-color: #5200ff;
-  --h2-color: #5200ff;
+  --h1-color: #ca0450;
+  --h2-color: #aa2276;
   --h3-color: #5200ff;
   --h4-color: #5200ff;
   --h5-color: #5200ff;
