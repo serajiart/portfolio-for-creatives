@@ -70,10 +70,12 @@ html {
 
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
+
+
 :root {
   --body-typeface: "Inter", sans-serif;
-  --heading-typeface: 'Eczar', serif;
-  --project-title-typeface: 'Eczar', serif;
+  --heading-typeface: 'Inter', sans-serif;
+  --project-title-typeface: 'Inter', sans-serif;
   --background-color: #fdfdfd;
   --background-color-about: #f5f5f5;
   --background-color-footer: #f5f5f5;    
@@ -81,10 +83,10 @@ html {
   --background-color-holding-page: rgba(82, 0, 255,0.6);
   --h1-color: #ca0450;
   --h2-color: #aa2276;
-  --h3-color: #5200ff;
-  --h4-color: #5200ff;
-  --h5-color: #5200ff;
-  --h6-color: #5200ff;
+  --h3-color: #000000;
+  --h4-color: #000000;
+  --h5-color: #000000;
+  --h6-color: #000000;
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
   --accent-color: #5200ff;
@@ -95,15 +97,15 @@ html {
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --visited-color: #5200ff;
-  --project-title-color: #5200ff;
-  --project-sidebar-background-color: orangered;
-  --project-sidebar-text-color: white;
+  --project-title-color: #000000;
+  --project-sidebar-background-color: rgb(255, 255, 255);
+  --project-sidebar-text-color: rgb(0, 0, 0);
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #5200ff;
-  --linear-gradient-color-1: #ff057c;
-  --linear-gradient-color-2: #8d0b93;
-  --linear-gradient-color-3: #321575;
+  --linear-gradient-color-1: #ffffff;
+  --linear-gradient-color-2: #ffffff;
+  --linear-gradient-color-3: #ffffff;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
